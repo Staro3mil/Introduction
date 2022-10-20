@@ -1,0 +1,104 @@
+.firstImpression{
+   
+    background-color: rgb(40, 156, 202);
+    
+    padding-top: 50px;
+    border-bottom: 20px solid;
+    
+    border-color: rgb(102, 58, 8);
+    
+    
+}
+/*
+.red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    display: block;
+    top: 936px;
+    left: 400px;
+    
+}
+
+.blue{
+    height: 200px;
+    width: 200px;
+    background-color: blue;   
+    position: absolute;
+    display: block;
+    top: 775px;
+    left: 200px;
+}
+.yellow{
+    height: 200px;
+    width: 200px;
+    left: 0px;
+    display: block;
+    background-color: yellow;
+    position: absolute;
+}
+*/
+.header{
+    text-align: center;
+}
+.bottomCloud{
+    position: absolute;
+}
+.topCloud{
+    position: relative;
+    left: 230px;
+    
+    
+}
+
+
+.webdev{
+    height: 250px;
+    width:800px;
+    border-radius: 25px;
+}
+#lastRow{
+    margin-bottom: 0px;
+}
+.mountain{
+    position: relative;
+    top: 5px;
+}
+hr{
+    color: rgb(236, 233, 33);
+    border: 0;
+    border-bottom: 20px dotted;
+    width: 200px;
+    
+}
+#leftTree{
+    
+    position: absolute;
+    left: 15px;
+    height: 200px;
+    top: 1650px;
+}
+#rightTree{
+    
+    position: absolute;
+    right: 15px;
+    height: 200px;
+    top: 1650px;
+}
+
+.bottomHalf{
+    background: rgb(86,149,62);
+    background: linear-gradient(0deg, rgba(86,149,62,1) 12%, rgba(119,186,95,1) 74%, rgba(40,156,202,1) 100%);
+    border: 10px solid;
+    border-bottom: 25px solid;
+    border-color: rgb(102, 58, 8);
+    
+}
+body{
+    
+    text-align: center;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+}
