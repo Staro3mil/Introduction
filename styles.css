@@ -9,7 +9,22 @@
     
     
 }
+#subtitle{
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
 
+h1{
+    font-size: 4em;
+    color: #66BFBF;
+    margin-bottom: 0;
+}
+h3{
+    color:#06712a;
+}
+a{
+    color: #06712a;
+}
 .header{
     text-align: center;
 }
@@ -48,14 +63,20 @@ hr{
     position: absolute;
     left: 15px;
     height: 100px;
-    top: 520px;
+    top: 626px;
 }
 #rightTree{
     
     position: absolute;
     right: 15px;
     height: 100px;
-    top: 520px;
+    top: 626px;
+}
+#baloon{
+    position: absolute;
+    height: 75px;;
+    right: 40%;
+    bottom: 250px;
 }
 
 .bottomHalf{
