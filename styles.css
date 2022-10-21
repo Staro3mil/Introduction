@@ -9,36 +9,7 @@
     
     
 }
-/*
-.red{
-    height: 200px;
-    width: 200px;
-    background-color: red;
-    position: absolute;
-    display: block;
-    top: 936px;
-    left: 400px;
-    
-}
 
-.blue{
-    height: 200px;
-    width: 200px;
-    background-color: blue;   
-    position: absolute;
-    display: block;
-    top: 775px;
-    left: 200px;
-}
-.yellow{
-    height: 200px;
-    width: 200px;
-    left: 0px;
-    display: block;
-    background-color: yellow;
-    position: absolute;
-}
-*/
 .header{
     text-align: center;
 }
@@ -66,7 +37,7 @@
     top: 5px;
 }
 hr{
-    color: rgb(236, 233, 33);
+    color: rgb(117, 212, 16);
     border: 0;
     border-bottom: 20px dotted;
     width: 200px;
@@ -76,23 +47,20 @@ hr{
     
     position: absolute;
     left: 15px;
-    height: 200px;
-    top: 1650px;
+    height: 100px;
+    top: 520px;
 }
 #rightTree{
     
     position: absolute;
     right: 15px;
-    height: 200px;
-    top: 1650px;
+    height: 100px;
+    top: 520px;
 }
 
 .bottomHalf{
-    background: rgb(86,149,62);
-    background: linear-gradient(0deg, rgba(86,149,62,1) 12%, rgba(119,186,95,1) 74%, rgba(40,156,202,1) 100%);
-    border: 10px solid;
-    border-bottom: 25px solid;
-    border-color: rgb(102, 58, 8);
+    background-color: rgb(194, 125, 29);
+    
     
 }
 body{
