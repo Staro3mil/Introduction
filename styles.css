@@ -4,23 +4,25 @@
     
     padding-top: 50px;
     border-bottom: 20px solid;
-    
+    width: 100%;
+    display: block;
+    height: 36em;
     border-color: rgb(102, 58, 8);
-    
+    position: relative;
     
 }
 #subtitle{
     font-size: 2.5rem;
     color: #66BFBF;
+    
 }
 
 h1{
     font-size: 4em;
-    color: #66BFBF;
-    margin-bottom: 0;
+    color: #66BFBF;    
 }
 h3{
-    color:#06712a;
+    color:#420000;
 }
 a{
     color: #06712a;
@@ -30,6 +32,7 @@ a{
 }
 .bottomCloud{
     position: absolute;
+    left: 28%;
 }
 .topCloud{
     position: relative;
@@ -39,34 +42,47 @@ a{
 }
 
 
-.webdev{
-    height: 250px;
-    width:800px;
-    border-radius: 25px;
-}
+
 #lastRow{
     margin-bottom: 0px;
 }
 .mountain{
-    position: relative;
-    top: 5px;
+    position: absolute;
+    right:2%;
+    height: auto;
+    width: 45%;
+    bottom:-13px;
+
+}
+#mountain2{
+    display: inline-block;
+    position: absolute;
+    height: auto;
+    width: 50%;
+    bottom: -1px;
+    left: 1%;
+    overflow: hidden;
 }
 hr{
     color: rgb(117, 212, 16);
     border: 0;
     border-bottom: 20px dotted;
     width: 200px;
-    
+    margin: 30px auto;
+}
+
+h2{
+    font-weight: normal;
 }
 #leftTree{
-    
+    display: none;
     position: absolute;
     left: 15px;
     height: 100px;
     top: 626px;
 }
 #rightTree{
-    
+    display: none;
     position: absolute;
     right: 15px;
     height: 100px;
@@ -74,9 +90,10 @@ hr{
 }
 #baloon{
     position: absolute;
-    height: 75px;;
+    height: auto;
+    width: 7%;
     right: 40%;
-    bottom: 250px;
+    bottom: 30%;
 }
 
 .bottomHalf{
@@ -90,4 +107,37 @@ body{
     margin: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 120%;
+}
+.skill-row1{
+    display: inline-block;
+    width: 50%;
+    height: fit-content;
+    margin:auto 30px;
+    text-align:end;
+}
+.skill-row{
+    display: inline-block;
+    width: 50%;
+    height: fit-content;
+    margin:auto 30px;
+    text-align:start;
+}
+
+.webdev{
+    height: auto;
+    width: 20%;
+    float: right;
+    margin-top: 2%;
+    margin-left: 2rem;
+    
+}
+.weight{
+    height: auto;
+    width: 20%;
+    float: left;
+    margin-top: 2%;
+    margin-right: 2rem;
+    
+    
+    
 }
