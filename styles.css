@@ -11,6 +11,62 @@
     position: relative;
     
 }
+
+#baloon{
+    position: absolute;
+    height: auto;
+    width: 7%;
+    right: 40%;
+    bottom: 30%;
+}
+
+.bottom-container{
+    display: inline-block;
+    background: #84d934;
+    width: 100%;
+    
+}
+
+.bottomHalf{
+    background-color: rgb(194, 125, 29);
+    
+}
+body{
+    
+    text-align: center;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+}
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #15460a;
+    font-size: 20px;
+    background: #84d934;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px auto;
+}
+  
+.btn:hover {
+    background: rgb(130, 84, 21);
+    text-decoration: none;
+}
+
+.footer-link{
+    margin: 20px 50px 20px 50px;
+    display: inline-block;
+    color: #15460a;
+}
+
+#lastRow{
+    padding-bottom: 30px;
+}
+
 #subtitle{
     font-size: 2.5rem;
     color: #66BFBF;
@@ -68,7 +124,7 @@ hr{
     border: 0;
     border-bottom: 20px dotted;
     width: 200px;
-    margin: 30px auto;
+    margin: 5em auto;
 }
 
 h2{
@@ -88,26 +144,7 @@ h2{
     height: 100px;
     top: 626px;
 }
-#baloon{
-    position: absolute;
-    height: auto;
-    width: 7%;
-    right: 40%;
-    bottom: 30%;
-}
 
-.bottomHalf{
-    background-color: rgb(194, 125, 29);
-    
-    
-}
-body{
-    
-    text-align: center;
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
-    font-size: 120%;
-}
 .skill-row1{
     display: inline-block;
     width: 50%;
