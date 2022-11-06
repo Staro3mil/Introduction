@@ -1,0 +1,27 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#customer{
+    border-radius: 30% 0 30% 0;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.round{
+    border-radius: 50%;
+    display: block;        
+    margin:auto;
+    height: auto;
+    width: 68%;
+    
+}
+
+#top{
+    background-color: #ff4c68;
+}
+
