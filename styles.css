@@ -90,6 +90,18 @@ a{
     position: absolute;
     left: 28%;
 }
+
+.projects a {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+.projects a:hover {
+    color: rgb(71, 219, 66);
+    
+}
+
 .topCloud{
     position: relative;
     left: 230px;
@@ -97,7 +109,13 @@ a{
     
 }
 
+.java{
+    height: auto;
+    width: 15%;
+    float: right;
 
+    margin-left: 2rem;
+}
 
 #lastRow{
     margin-bottom: 0px;
